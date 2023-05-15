@@ -30,7 +30,7 @@ public class Main extends Application {
     Button btnAddition;  //sabiranje
     Button btnSubtraction; //oduzimanje
     Button btnProcenat; //procenat
-    Button btnClear;  //c dugme za ciscenje na kalkulator
+    Button btnClear;  //c dugme za ciscenje na kalkulatoru
     Label lblAnswer; //odgovor/resenje
 
     @Override
