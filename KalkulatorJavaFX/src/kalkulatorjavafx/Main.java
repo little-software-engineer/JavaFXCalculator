@@ -89,7 +89,7 @@ public class Main extends Application {
     }
 
     public void attachCode() {
-        //have each button run BTNCODE when clicked
+       
         btnAddition.setOnAction(e -> btncode(e));
         btnSubtraction.setOnAction(e -> btncode(e));
         btnMultiply.setOnAction(e -> btncode(e));
@@ -109,7 +109,7 @@ public class Main extends Application {
     private void btncode(ActionEvent e) {
         int num1, num2, answer;
         char symbol;
-//e tells us which button was clicked
+
         if (e.getSource() == btnClear) {
             tfNum1.setText("");
             tfNum2.setText("");
@@ -118,7 +118,7 @@ public class Main extends Application {
             return;
         }
 
-        //read numbers in from textfields
+   
         num1 = Integer.parseInt(tfNum1.getText());
         num2 = Integer.parseInt(tfNum2.getText());
         if (e.getSource() == btnAddition) {
